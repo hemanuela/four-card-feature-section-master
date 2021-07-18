@@ -112,20 +112,13 @@ body {
 
 
 /** Media adjustment **/
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
     .container {
-    display: grid;
+    display: block;
     height: 100vh;
     justify-content: center;
     align-content: flex-start;
-    grid-template-columns: 350px;
-    grid-template-rows: 250px 250px 540px 250px;
-    grid-template-areas: 
-        "header"
-        "column-1"
-        "column-2"
-        "column-3";
-    row-gap: 15px;
+    padding: 4rem;
     }
 
     #header {
@@ -139,10 +132,12 @@ body {
         justify-content: space-around;
     }
 
+
     #column-1, #box-a, #box-b, #column-3 {
         padding: 2rem;
         margin: auto;
         border-radius: 5px;
+        margin-bottom: 20px;
     }
 
     /** Font - color and weight **/
