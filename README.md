@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/hemanuela/four-card-feature-section-master/blob/main/design/my-screenshot.jpg)
 
 
 ### Links
